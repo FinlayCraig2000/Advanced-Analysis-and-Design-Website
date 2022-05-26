@@ -1,0 +1,110 @@
+/* Import */
+
+@import url("../globalProfile.css");
+@import url("../admin/modal.css");
+
+/* Column - Split */
+
+.grid-container {
+    display: flex;
+}
+
+.left-column {
+    flex-grow: 1;
+}
+
+.right-column {
+    flex-grow: 1;
+}
+
+.center-container-column-left {
+    height: 100%;
+    width: 100%;
+}
+
+.center-container-column-right {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Column - Combo Box */
+
+.dropdown label {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+/* Column - Permission Button*/
+
+.button {
+    padding-top: 25px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    padding: 1em;
+}
+
+/* form styles */
+form {
+    max-width: 17em;
+    margin: 3% auto;
+}
+
+input {
+    width: 100%;
+    border: .063em solid lightgray;
+    box-sizing: border-box;
+    margin-top: 0.6em;
+
+}
+
+
+#confirmPassword {
+    margin-top: .5em;
+}
+
+input[type="submit"] {
+    margin-top: .7em;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: .1em;
+    padding: .4em 0;
+}
+
+/* validator */
+
+.valid {
+    border-color: lightgreen;
+}
+
+.invalid {
+    border-color: red;
+}
+
+/* form bootstrap css*/
+.section-container.light-bg {
+    border: 1px solid #ddd;
+    padding: 1.25em;
+    color: #444444;
+}
+.inner {
+    background-color: #ffffff;
+    border-radius:1px;
+    padding:0.3em;
+}
+.col {
+    margin: 0.5em;
+    overflow: hidden;
+}

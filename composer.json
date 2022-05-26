@@ -1,0 +1,15 @@
+{
+
+  "require-dev": {
+
+    "mashape/unirest-php": "3.*"
+
+  },
+  "require": {
+    "ext-mysqli": "*",
+    "ext-json": "*",
+    "ext-ctype": "*",
+    "ext-http": "*",
+    "ext-curl": "*"
+  }
+}

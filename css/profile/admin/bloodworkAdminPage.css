@@ -1,0 +1,10 @@
+/* Import */
+
+@import url("../globalProfile.css");
+@import url("../admin/modal.css");
+
+/* Padding */
+
+.header-padding-content {
+    padding-bottom: 10px;
+}

@@ -1,0 +1,29 @@
+/* Imports */
+
+@import url("../globalProfile.css");
+@import url("../admin/modal.css");
+
+/* Padding */
+
+.header-padding-content {
+    padding-bottom: 10px;
+}
+
+/* Contents of page */
+
+.scan-button-prescription {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* User Section */
+
+.print-page-container {
+    margin-left: 50px;
+}
+
+.print-page-button {
+    cursor: pointer;
+    width: 20%;
+}

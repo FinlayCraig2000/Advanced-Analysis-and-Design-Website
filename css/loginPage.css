@@ -1,0 +1,201 @@
+/* Include */
+
+@import url("../css/profile/admin/modal.css");
+
+/* Global */
+
+html {
+    margin: 0;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+form {
+    margin-block-end: 0;
+}
+
+input {
+    width: 100%;
+    font-size: revert !important;
+    line-height: normal !important;
+    color: black !important;
+}
+
+/* Home page structure */
+
+.background-main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.template-margin-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 958px;
+}
+
+.flex-center-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.knights-of-nigel-image-login {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.knights-of-nigel-image-register {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.account-form-container {
+    position: absolute;
+    background-color: transparent;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.account-form-container input {
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: solid;
+}
+
+.login-buttons-container {
+    display: flex;
+}
+
+.error-container {
+    padding: 5px;
+    margin: 5px;
+}
+
+.create-account-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.user-input-info-register {
+    display: flex;
+}
+
+.left {
+    flex-grow: 1;
+    padding-right: 7px;
+}
+
+.right {
+    flex-grow: 1;
+    padding-left: 7px;
+}
+
+.account-switch-to-login-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.help-modal-contents {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Input */
+
+.email-input-row {
+    width: 100%;
+}
+
+.password-input-row {
+    width: 100%;
+}
+
+/* Buttons */
+
+.help-input-button {
+    background-color: #b9d4eb;
+    width: 25%;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.help-input-button:hover {
+    background-color: #91bce0;
+}
+
+.login-input-button {
+    background-color: #a9d18e;
+    width: 75%;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.login-input-button:hover {
+    background-color: #8dc26a;
+}
+
+.account-switch-input-button {
+    background-color: #bf9000;
+    width: 100%;
+    cursor: pointer;
+}
+
+.account-switch-input-button:hover {
+    background-color: #8c6a00;
+}
+
+.register-user-button {
+    background-color: #a9d18e;
+    width: 50%;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.register-user-button:hover {
+    background-color: #8dc26a;
+}
+
+.add-register-profile-image {
+    background-color: #a9d18e;
+    cursor: pointer;
+}
+
+.add-register-profile-image:hover {
+    background-color: #8dc26a;
+}
+
+.remove-register-profile-image {
+    background-color: #c00000;
+    cursor: pointer;
+}
+
+.remove-register-profile-image:hover {
+    background-color: #8d0000;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 1000px) {
+    /*Mobile version*/
+}

@@ -1,0 +1,247 @@
+/* Keep */
+
+html * {
+    font-family: Arial, sans-serif !important;
+}
+
+p {
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+/* Top Options Bar */
+
+.top-options-bar {
+    overflow: hidden;
+    margin-top: 35px;
+}
+
+.top-options-container-right {
+    float: right;
+    margin-right: 150px;
+}
+
+.navigation-options-buttons {
+    margin-left: 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.admin-homepage-logout-image {
+    width: 50px;
+    height: 50px;
+}
+
+/* Side Bar */
+
+.side-menu-container {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1B1D1F;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.side-menu-container a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-menu-container .home-a-button:hover {
+    color: #FFD966;
+    text-decoration: none;
+}
+
+.side-menu-container .settings-a-button:hover {
+    color: #8FAADC;
+    text-decoration: none;
+}
+
+.side-menu-container .prescriptions-a-button:hover {
+    color: #548235;
+    text-decoration: none;
+}
+
+.side-menu-container .stock-a-button:hover {
+    color: #F4B183;
+    text-decoration: none;
+}
+
+.side-menu-container .blood-work-a-button:hover {
+    color: #8497B0;
+    text-decoration: none;
+}
+
+.side-menu-container .side-menu-close-button:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.side-menu-container .side-menu-close-button {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.side-menu-button-container a {
+    margin-top: 15px;
+    color: #e9ecef;
+}
+
+.side-menu-button-container p {
+    font-size: 25px;
+}
+
+.side-menu-button-container img {
+    width: 35%;
+}
+
+.side-menu-button-container a {
+    display: block;
+    text-align: center;
+}
+
+/* Global Variables */
+
+th, td {
+    border: 1px solid;
+    font-weight: 400;
+}
+
+/* Colour Rows */
+
+tr:nth-of-type(even) {
+    background-color: #DDDDDD;
+}
+
+tr:not(:first-child):hover {
+    background-color:dodgerblue;
+}
+
+/* Table Structure */
+
+#myInput {
+    background-image: url('./admin/images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#userTable {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 4px 8px 4px 12px;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+#userTable th {
+    font-weight: bold;
+    text-align: left;
+    width: fit-content;
+    font-size: 16px;
+    padding: 4px 8px 4px 12px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#userTable td {
+    text-align: left;
+    width: fit-content;
+    font-size: 16px;
+    padding: 4px 8px 4px 12px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#userTable tr {
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+/* Global contents */
+
+.background-main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.template-margin-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 958px;
+}
+
+.flex-center-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.user-admin-global-flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.admin-home-side-menu-image {
+    width: 50px;
+    height: 50px;
+}
+
+.header-center {
+    text-align: center;
+}
+
+.modal-body b {
+    word-wrap: normal;
+}
+
+/* Mobile Version */
+
+@media screen and (max-width: 1000px){
+
+}
+
+@media screen {
+    #printSection {
+        display: none;
+    }
+}
+
+@media print {
+    body * {
+        visibility:hidden;
+    }
+    #printSection, #printSection * {
+        visibility:visible;
+    }
+    #printSection {
+        position:absolute;
+        left:0;
+        top:0;
+    }
+}
+

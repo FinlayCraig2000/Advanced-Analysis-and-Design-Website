@@ -1,0 +1,144 @@
+/* Imports */
+
+@import url("../globalProfile.css");
+
+/* Global Home page */
+
+.profile-grid-container p {
+    font-size: xx-large;
+}
+
+/* Middle Section of Main structure*/
+
+.user-admin-home-flex-container {
+    position: absolute;
+    background-color: transparent;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.profile-grid-container {
+    justify-content: center;
+    display:grid;
+    grid-template-columns: 250px 250px;
+    grid-row: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+/* Bottom Section of Main Structure */
+
+.image-temp-name .knights-of-nigel-image-home-page {
+    width: 25%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Buttons */
+
+.button {
+    height: 250px;
+    width: 250px;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+}
+
+.image-button-container {
+    width: 75%;
+    height: 75%;
+    padding-top: 15px;
+}
+
+.settings {
+    background-color: #E2F0D9;
+    color: black;
+    padding: 0;
+}
+
+.settings:hover {
+    background-color: #c6e2b4;
+    color: white;
+}
+
+.admin-homepage-settings-image {
+    filter: url(#setting-icon-colour-filter-default);
+}
+
+.admin-homepage-settings-image:hover {
+    filter: url(#setting-icon-colour-filter-hover);
+}
+
+.prescriptions {
+    background-color: #cd5c5c;
+    color: black;
+    padding: 0;
+}
+
+.prescriptions:hover {
+    background-color: #bc3a3a;
+    color: white;
+}
+
+.admin-homepage-prescription-image {
+    filter: url(#prescription-icon-colour-filter-default);
+}
+
+.admin-homepage-prescription-image:hover {
+    filter: url(#prescription-icon-colour-filter-hover);
+}
+
+.stock {
+    background-color: #FBE5D6;
+    color: black;
+    padding: 0;
+}
+
+.stock:hover {
+    background-color: #f6c8a8;
+    color: white;
+}
+
+.admin-homepage-stock-image {
+    filter: url(#stock-icon-colour-filter-default);
+}
+
+.admin-homepage-stock-image:hover {
+    filter: url(#stock-icon-colour-filter-hover);
+}
+
+.bloodwork {
+    background-color: #708090;
+    color: black;
+    padding: 0;
+}
+
+.bloodwork:hover {
+    background-color: #5a6773;
+    color: white;
+}
+
+.admin-homepage-blood-work-image{
+    filter: url(#distribution-icon-colour-filter-dafult);
+}
+
+.admin-homepage-blood-work-image:hover {
+    filter: url(#distribution-icon-colour-filter-hover);
+}
+
+.temp-width-height-should-import-later {
+    width: 0;
+    height: 0;
+}

@@ -1,0 +1,46 @@
+/* Import */
+
+@import url("../globalProfile.css");
+@import url("../admin/modal.css");
+
+/* Column - Split */
+
+.grid-container {
+    display: flex;
+}
+
+.left-column {
+    flex-grow: 1;
+}
+
+.right-column {
+    flex-grow: 1;
+}
+
+.center-container-column-left {
+    height: 100%;
+    width: 100%;
+}
+
+.center-container-column-right {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Column - Combo Box */
+
+.dropdown label {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+/* Column - Permission Button*/
+
+.button {
+    padding-top: 25px;
+}
